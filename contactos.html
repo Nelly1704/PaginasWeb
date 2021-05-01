@@ -6,44 +6,80 @@
         <meta name="description" content="Pagina que contiene formulario de contacto ">
         <meta name="author" content="Flores Cuevas Nelly Mireya">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css" /> 
-    </head>
-    <body>
-         <img id="contacto" src="recursos/chiquilandia.jpg" alt="Logo">
-         <hr>
-        <main>
-            <article >
-                <nav class="menu">
-                    <ul class="clrarfix">
-                        <li><a href="index.html">INICIO</a></li>
-                        <li><a href="recomendaciones.html">RECOMENDACIONES</a></li>
-                        <li><a href="servicios.html">SERVICIOS</a></li>
-                        <li><a href="instalaciones.html">INSTALACIONES</a></li>
-                        <a href="contactos.html">CONTACTOS</a>
-                    </ul>
-                </nav>
+        <link rel="stylesheet" href="style.css" />
 
-                <pre>
-                    <h1>CONTACTO</h1>
-                <article>
-                    <form action="" method="post">
-                        <fieldset>
-                            <pre><h2>MENSAJE</h2></pre>
-                                <label for="nombre">Nombre*</label>
-                                <input type=""name="nombre" id="nombre">
-                                <label for="email">Email* </label>
-                                <input type="" name="email" id="email">
-                                <label for="celular">Celular* </label>
-                                <input type="" name="celular" id="celular">
-                                <label for="asunto">Asunto: </label>
-                                <input type="" name="asunto" id="asunto">
-                        </fieldset>
-                    </form>
-                    <strong><button>Recibir informes</button></strong>
-                </article>
-                <mark><a href="tel:(81)2226-4056">CONTACTANOS</a></mark style="font-size: 4rem;">&phone;
-                    <a href="#contacto">Ir arriba</a>
+        <header>
+            <img id="contacto" src="recursos/chiquilandia.jpg" alt="Logo">
+            <hr>
+            <br>
+            <nav class="menu">
+                <ul class="clrarfix">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="recomendaciones.html">RECOMENDACIONES</a></li>
+                    <li><a href="servicios.html">SERVICIOS</a></li>
+                    <li><a href="instalaciones.html">INSTALACIONES</a></li>
+                </ul>
+            </nav>
+        </header>
+    </head>
+
+    <body>
+        <main>
+            <article>
+                <h1>CONTACTO</h1>
+                <form action="" method="post">
+                    <fieldset>
+                        <pre><h2>MENSAJE</h2></pre>
+                            <label for="nombre">Nombre*</label>
+                            <br>
+                            <input type=""name="nombre" id="nombre">
+                            <br>
+                            <label for="email">Email* </label>
+                            <br>
+                            <input type="" name="email" id="email">
+                            <br>
+                            <label for="celular">Celular* </label>
+                            <br>
+                            <input type="" name="celular" id="celular">
+                            <br>
+                            <label for="asunto">Asunto: </label>
+                            <br>
+                            <input type="" name="asunto" id="asunto">
+                            <br>
+                            <strong>
+                                <button class="informes" onClick="alert('Sus datos fueron enviados con éxito.')">
+                                    Recibir informes
+                                </button>
+                            </strong>
+                            <br>
+                    </fieldset>
+                    <br>
+                </form>
+                <br>
             </article>
+            <mark>
+                <a href="tel:(81)2226-4056">
+                    CONTACTANOS
+                </a>
+            </mark style="font-size: 4rem;">&phone;
+            <br>
+            <br>
+            <br>
+            <br>
         </main>
+        <br>
+   
+
+        <aside>
+            <img src="recursos/contactanos.jpg" alt="contactanos">
+        </aside>
+
+        <footer>
+            <address>
+                Plaza Nave 01 Planta Baja
+                Av Miguel Aleman 120, Fracc Industrial Milimex,
+                Apodaca (13.18 km), Nuevo León, 66600
+            </address>
+        </footer>
     </body>
 </html>
