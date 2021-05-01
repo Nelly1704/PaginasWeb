@@ -1,0 +1,138 @@
+/* HEADER */
+header img {
+    width: 15%;
+}
+
+header a {
+    display: block;
+}
+
+header nav {
+    margin-bottom: 1em;
+}
+
+header nav a:link, header nav a:visited {
+    background-color: pink;
+    color: black;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+header nav a:hover, header nav a:active {
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+
+header ul {
+    list-style: none;
+    text-align: center;
+}
+
+header ul li {
+    float: left;
+    width: 25%;
+}
+
+/* Body */
+
+body {
+    width: 95%;
+    margin: 0 auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body img {
+    margin-left: 12em;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clrarfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* H */
+h1{
+    background-color: salmon;
+    color: white;
+    text-align: center
+}
+
+body h2{
+    color: rgb(235, 204, 29);
+}
+
+/* Main */
+main > article img {
+    width: 200px;
+    float: center;
+    /* margin: 0.2em; */
+
+}
+
+main abbr {
+    text-decoration:none;
+}
+main ul {
+    margin-left: 2em;
+}
+
+main ol {
+    margin-left: 2em;
+}
+
+main {
+    width: 70%;
+    float: left;
+}
+
+main address {
+    text-align: right;
+    float: right;
+}
+
+/* Aside */
+aside {
+    width: 30%;
+    float: right;
+    padding:0 1cm;
+}
+
+aside div {
+    font-weight: bold;
+    text-align: center;
+}
+
+aside h2 {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+aside img {
+    width: 270px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    text-align: center;
+    clear: both;
+    background-color:lightgreen;
+    color: black;
+}
+
