@@ -80,12 +80,22 @@ body h2{
     color: rgb(235, 204, 29);
 }
 
+h1.instalaciones{
+    background-color: purple;
+    color:white;
+}
+
 /* Main */
 main > article img {
     width: 200px;
     float: center;
     /* margin: 0.2em; */
 
+}
+
+main > figure.instalaciones > img{
+    width: 400px;
+    margin-left: 15em;
 }
 
 main abbr {
